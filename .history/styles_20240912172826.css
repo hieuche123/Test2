@@ -281,17 +281,7 @@
 .limited-text {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; /* Phiên bản cho WebKit */
-  line-clamp: 2; /* Phiên bản tiêu chuẩn */
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.limited-text1 {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1; /* Phiên bản cho WebKit */
-  line-clamp: 1; /* Phiên bản tiêu chuẩn */
+  -webkit-line-clamp: 2; /* Giới hạn hiển thị tối đa 2 dòng */
   overflow: hidden;
   text-overflow: ellipsis;
 }

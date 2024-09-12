@@ -278,23 +278,7 @@
   width: 100%;
 }
 
-.limited-text {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; /* Phiên bản cho WebKit */
-  line-clamp: 2; /* Phiên bản tiêu chuẩn */
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 
-.limited-text1 {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1; /* Phiên bản cho WebKit */
-  line-clamp: 1; /* Phiên bản tiêu chuẩn */
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .header__toplink {
   height: 40px;
 }
@@ -496,7 +480,7 @@
     display: none;
   }
   .banner__text {
-    left: 80px;
+    left: 30px;
 }
 .banner__text__btn {
   margin-top: 10px;
@@ -529,10 +513,6 @@
 .banner__text__btn {
   padding: 5px 18px;
   font-size: 8px;
-}
-.btn__arrow__slider {
-  width: 30px;
-  height: 30px;
 }
 }
 @media (max-width: 1070px) {
