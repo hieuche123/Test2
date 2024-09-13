@@ -30,9 +30,6 @@
 .cursor {
   cursor: pointer;
 }
-.radius-5 {
-  border-radius: 5px;
-}
 .m-t-20 {
   margin-top: 20px;
 }
@@ -587,6 +584,12 @@ svg.arrow__menu {
 .modal__header {
   height: 55px;
   background-color: #D73F0F;
+}
+.container__item {
+  border-radius: 5px;
+}
+.container__item img {
+  border-radius: 5px;
 }
 .modal__home{
   height: 55px;
