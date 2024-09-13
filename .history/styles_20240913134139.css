@@ -750,7 +750,7 @@ svg.arrow__menu {
   .dots {
     bottom: 15px;
   }
-  .slider-inner-img {
-    height: 200px;
+  .slider-wrapper {
+    min-height: 350px;
   }
 }
