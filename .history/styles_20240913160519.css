@@ -635,7 +635,7 @@ svg.arrow__menu {
 /* Đối với tablet */
 @media (max-width: 1024px) {
   .banner__text__btn {
-    max-width: 140px;
+    max-width: 120px;
   }
   .container__list__item {
     grid-template-columns: repeat(2, 1fr); /* 2 items trên 1 hàng */

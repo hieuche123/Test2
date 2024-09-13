@@ -483,8 +483,6 @@ img {
   background-color: var(--color-white);
   padding: 15px 0px;
   max-width: 150px;
-  display: flex;
-  justify-content: center;
 }
 .header__search{
   width: 100%;
@@ -634,9 +632,6 @@ svg.arrow__menu {
 }
 /* Đối với tablet */
 @media (max-width: 1024px) {
-  .banner__text__btn {
-    max-width: 140px;
-  }
   .container__list__item {
     grid-template-columns: repeat(2, 1fr); /* 2 items trên 1 hàng */
   }
@@ -671,9 +666,6 @@ svg.arrow__menu {
 
 /* Đối với mobile */
 @media (max-width: 739px) {
-  .banner__text__btn {
-    max-width: 80px;
-  }
   .section__body {
     padding-top: 72px;
   }
