@@ -18,6 +18,10 @@
     .p-sm-b-16 {
         padding-bottom: 16px;
     }
+
+    .m-sm-b-16 {
+        margin-bottom: 16px;
+    }
     .p-sm-b-20 {
         padding-bottom: 20px;
     }
@@ -39,6 +43,9 @@
     }
     .p-sm-r-30 {
         padding-right: 30px;
+    }
+    .m-sm-b-10 {
+        margin-bottom: 10px;
     }
     .absolute-sm-center {
         top: 50%;
@@ -76,7 +83,7 @@
     }
   }
 
-  @media (min-width: 740px) and (max-width: 1024px) {
+  @media (min-width: 739px) and (max-width: 1024px) {
     .fz-md-12 {
         font-size: 12px;
     }
@@ -153,6 +160,9 @@
   }
   
   @media (min-width: 1025px) {
+    .d-lg-none {
+        display: none;
+    }
     .fz-lg-12 {
         font-size: 12px;
     }
@@ -162,17 +172,35 @@
     .f-size-lg-14 {
         font-size: 14px;
     }
+    .m-lg-b-4 {
+        margin-bottom: 4px;
+    }
     .m-lg-b-6 {
         margin-bottom: 6px;
     }
     .m-lg-b-10 {
         margin-bottom: 10px;
     }
+    .m-lg-b-11 {
+        margin-bottom: 11px;
+    }
+    .m-lg-b-12 {
+        margin-bottom: 12px;
+    }
+    .m-lg-b-13 {
+        margin-bottom: 13px;
+    }
     .m-lg-b-16 {
         margin-bottom: 16px;
     }
+    .m-lg-b-18 {
+        margin-bottom: 18px;
+    }
     .m-lg-b-20 {
         margin-bottom: 20px;
+    }
+    .m-lg-b-25 {
+        margin-bottom: 25px;
     }
     .m-lg-b-26 {
         margin-bottom: 26px;
@@ -183,6 +211,9 @@
     .m-lg-b-60 {
         margin-bottom: 60px;
     }
+    .p-lg-t-52 {
+        padding-top: 52px;
+    }
     .p-lg-t-57 {
         padding-top: 57px;
     }
@@ -191,13 +222,21 @@
     .p-lg-t-30 {
         padding-top: 30px;
     }
+    .p-lg-b-53 {
+        padding-bottom: 53px;
+    }
+    .p-lg-b-56 {
+        padding-bottom: 56px;
+    }
     .p-lg-b-60 {
         padding-bottom: 60px;
     }
     .p-lg-y-20 {
         padding: 20px 0;
     }
-
+    .p-lg-l-8 {
+        padding-left: 8px;
+    }
     .p-lg-t-14 {
         padding-top: 14px;
     }
@@ -215,6 +254,9 @@
 
     .gap-lg-2 {
         gap: 2px;
+    }
+    .gap-lg-3 {
+        gap: 3px;
     }
     .gap-lg-5 {
         gap: 5px;
@@ -234,6 +276,12 @@
     .gap-lg-26 {
         gap: 26px;
     }
+    .gap-lg-27 {
+        gap: 27px;
+    }
+    .gap-lg-28 {
+        gap: 28px;
+    }
     .gap-lg-30 {
         gap: 30px;
     }
@@ -247,6 +295,10 @@
 
     .lh-lg-23 {
         line-height: 23px;
+    }
+    
+    .lh-lg-51 {
+    line-height: 51px;
     }
   }
 
