@@ -453,9 +453,7 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
-.w-full {
-  width: 100%;
-}
+
 .dot.active {
   background-color: rgba(255, 255, 255, 1);
 }
