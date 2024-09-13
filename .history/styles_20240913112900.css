@@ -12,7 +12,7 @@
   --max-width: 1920px;
   --color-text-baner: #FDE50B
 }
-.bg-color-10 {
+.bg-color-9 {
   background-color: #008A00;
 }
 .line-through {
@@ -618,9 +618,7 @@ svg.arrow__menu {
   width: 55px;
   height: 25px;
 }
-.bg-color-10 {
-  background-color: #008A00;
-}
+
 /* Đối với tablet */
 @media (max-width: 1024px) {
   .container__list__item {

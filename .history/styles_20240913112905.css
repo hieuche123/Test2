@@ -618,9 +618,7 @@ svg.arrow__menu {
   width: 55px;
   height: 25px;
 }
-.bg-color-10 {
-  background-color: #008A00;
-}
+
 /* Đối với tablet */
 @media (max-width: 1024px) {
   .container__list__item {
